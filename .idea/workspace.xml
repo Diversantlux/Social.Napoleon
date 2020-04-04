@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34bb0c3f-e0e4-4ef9-94c0-2b8118f467fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/assets/pencil2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/assets/user2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/views/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a5MXxoOZ6Sh5lSVYak4VZ4nA3W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586021045750</updated>
-      <workItem from="1586021056093" duration="240000" />
+      <workItem from="1586021056093" duration="497000" />
     </task>
     <servers />
   </component>
