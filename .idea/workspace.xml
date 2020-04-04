@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34bb0c3f-e0e4-4ef9-94c0-2b8118f467fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/assets/pencil2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/assets/user2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/views/Home.vue" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project" />
+  </component>
+  <component name="ProjectId" id="1a5MXxoOZ6Sh5lSVYak4VZ4nA3W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34bb0c3f-e0e4-4ef9-94c0-2b8118f467fb" name="Default Changelist" comment="" />
+      <created>1586021045750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586021045750</updated>
+      <workItem from="1586021056093" duration="240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
