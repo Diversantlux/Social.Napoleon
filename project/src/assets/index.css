@@ -1,33 +1,14 @@
-<template>
-  <div class="about">
-    
-<div id="range5">
-
-    <div class="outer">
-      <div class="middle">
-        <div class="inner">
-
-            <div class="login-wr">
-              <h2>Вход</h2>
-              <div class="form">
-                <input type="text" placeholder="Пользователь">
-                <input type="password" placeholder="Пароль">
-                <button> Вход </button>
-              </div>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-    </div>
-  </div>
-</template>
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    height: 100%;
+  }
 
 
-<style scoped>
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
 
 .outer {
@@ -89,11 +70,12 @@
 }
       
 #range5 input[type="text"] {
-    background: url("") ;    
+    background: url("../assets/user2.png") no-repeat left 10px center;    
 }
 
 #range5 input[type="password"] {
-    background: url("") no-repeat left 10px center;    
+    background: url("../assets/pencil2.png") no-repeat  left 10px center;   
+    
 }
 
 #range5 input[type="text"],
@@ -114,11 +96,12 @@
 #range5 a {
     text-align: center;
     font-size: 12px;
-    color: #eee;
+    color: rgb(70, 223, 250);
 }  
 
 #range5 p{
     padding-bottom: 10px;
+    color: #eee;
 }
       
 #range5 button {
@@ -148,6 +131,3 @@
 #range5 *:-ms-input-placeholder {
     color: #ccc; 
 }
-
-
-</style>
