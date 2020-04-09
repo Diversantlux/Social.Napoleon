@@ -5,6 +5,9 @@ import router from './router'
 import store from './store'
 import messagePlugin from '@/utils/message.plugin'
 import 'materialize-css/dist/js/materialize.min'
+import 'materialize-css/dist/css/materialize.css'
+import 'materialize-css'
+
 
 import firebase from 'firebase/app'
 import 'firebase/auth'
