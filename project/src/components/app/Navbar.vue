@@ -13,7 +13,7 @@
           </div>
         
               <div>
-                <router-link to="/" class="">Profile
+                <router-link to="/" class="black-text"> Profile
                 
                 <!-- Профиль -->
               </router-link></div>
