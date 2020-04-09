@@ -1,42 +1,45 @@
 <template>
-  
- <div>
-     <h1>Welcom to my social network</h1>
-     <div class="page-main">
-        <header>
-            <div class="header">     
-                                  
-            </div>           
-        </header>
-        <div class="block-info">
-            <div class="block-img">
-                <img src="" alt="">
-            </div>
-            <div class="block-text">
-                <h2 class="block-text-title"></h2>               
-                
-            </div>
+  <div class="page-main">
+    <div class="img-profile">
+      <div class="img-item">
+        <div class="block-img">
+          <img src alt />
         </div>
-        <footer>
-            <div class="footer">
-                <h2>Челябинск 2020</h2>
-            </div>
-        </footer>
+      </div>
     </div>
- </div>
-  
+    <div class="wall">
+      <div class="info-user">
+          <div class="block-user-name">
+              <h4 class="block-user-name-title">{{name}} {{family}}</h4>
+          </div>
+          <div class="block-user-info"></div>
+      </div>
+      <div class="record-info">
+          <div class="coment"></div>
+      </div>
+    </div>
+  </div>
 </template>
 
 
 <style>
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 </style>
 
 
 <script>
 export default {
-    name: 'home'
-}
+  name: "home",
+
+
+    computed: {
+    name() {
+      return this.$store.getters.info.name;
+    },
+    family() {
+      return this.$store.getters.info.family;
+    }
+  }
+};
+
 </script>
