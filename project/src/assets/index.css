@@ -1,3 +1,8 @@
+.navbar {
+  background-color: #4a76a8;
+}
+
+
 .empty-layout {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10,6 +15,9 @@
   align-items: center;
   padding-top: 5rem;
   height: 100vh
+}
+.white-text {
+  background-color: rgb(105, 104, 104);
 }
 
 .auth-card {
