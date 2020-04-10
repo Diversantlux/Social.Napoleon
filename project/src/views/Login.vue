@@ -1,7 +1,7 @@
 <template>
   <form class="card auth-card" @submit.prevent="submitHandler">
     <div class="card-content">
-      <span class="card-title">Домашняя бухгалтерия</span>
+      <span class="card-title">Вход</span>
       <div class="input-field">
         <input
             id="email"
@@ -53,7 +53,7 @@
       </div>
 
       <p class="center">
-        Нет аккаунта?
+        Еще не с нами? Тогда жми
         <router-link to="/register">Зарегистрироваться</router-link>
       </p>
     </div>
@@ -89,7 +89,7 @@ export default {
       try {
         await this.$store.dispatch('login', formData)
         this.$router.push('/')
-      } catch (e) {}
+      } catch (e) {''}
     }
   }
 }
