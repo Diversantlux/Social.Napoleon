@@ -5,7 +5,7 @@
     </div>
     <div class="navbar-menu">
       <div class="menu-item">
-        <router-link to="/" class="black-text">
+        <router-link to="/profile" class="black-text">
           Profile
           <!-- Профиль -->
         </router-link>
