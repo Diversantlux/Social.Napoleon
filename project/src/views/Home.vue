@@ -12,7 +12,11 @@
           <div class="block-user-name">
               <h4 class="block-user-name-title">{{name}} {{family}}</h4>
           </div>
-          <div class="block-user-info"></div>
+          <div class="block-user-info">
+            <div><p>Дата рождения</p><p></p></div>
+            <div><p>Пол</p><p></p> {{male}}</div>
+            <div><P>Город</P><p></p> {{city}}</div>
+          </div>
       </div>
       <div class="record-info">
           <div class="coment"></div>
@@ -38,6 +42,12 @@ export default {
     },
     family() {
       return this.$store.getters.info.family;
+    },
+    male() {
+      return this.$store.getters.userInfo.male;
+    },
+    city() {
+      return this.$store.getters.userInfo.city;
     }
   }
 };

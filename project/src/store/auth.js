@@ -16,13 +16,16 @@ export default {
         const uid = await dispatch('getUid')
         await firebase.database().ref(`/users/${uid}/info`).set({
           family,
-          name 
+          name,
+          email,
+          password 
         })
       } catch (e) {
         commit('setError', e)
         throw e
       }
     },
+
     getUid() {
       const user = firebase.auth().currentUser
       return user ? user.uid : null
