@@ -15,6 +15,7 @@ import 'materialize-css'
 import firebase from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/database'
+import 'firebase/storage'
 
 Vue.use(messagePlugin)
 Vue.use(Vuelidate)
