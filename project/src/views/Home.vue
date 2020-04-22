@@ -43,12 +43,6 @@ export default {
     family() {
       return this.$store.getters.info.family;
     },
-    male() {
-      return this.$store.getters.userInfo.male;
-    },
-    city() {
-      return this.$store.getters.userInfo.city;
-    }
   }
 };
 

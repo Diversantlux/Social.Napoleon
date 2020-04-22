@@ -1,14 +1,14 @@
 <template>
-  <div class="wrap" @submit.prevent="submitHandler">
+  <div class="wrap">
       <div class="wrap-main">
     <div class="page-main" >
       <div class="img-profile">
         <div class="img-item">
           <div class="block-img">
-            <img src alt />
+            <container></container>
           </div>
           <div class="button-img">
-            <button class="button-img-item">Редактировать</button>
+            <comment-form></comment-form>
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@
           <div class="info-content">
             <div class="info-content-item">Пол</div>
             <div class="info-content-item-input">
-              <input id="male" type="text" v-model.trim="male" />
+              <input id="male" type="text"  />
             </div>
           </div>
           <div class="info-content">
@@ -41,7 +41,7 @@
             <div class="info-content-item-input">
               <input id="city" 
               type="text"
-                v-model.trim="city"
+                
                  />
             </div>
           </div>
@@ -61,38 +61,14 @@
 
 
 <script>
+    import CommentForm from "../components/app/commentform";
+    import Container from "../components/app/container";
 
-
-export default {
-  name: "profile",
-  data: () => ({
-    city: "",
-    male: "",
-    name: "",
-    family: ""
-  }),
- 
-  methods: {
-    async submitHandler() {
-      if (this.$v.$invalid) {
-        this.$v.$touch();
-        return;
-      }
-
-      const formData = {
-        city: this.city,
-        male: this.male,
-        name: this.name,
-        family: this.family
-      };
-
-      try {
-        await this.$store.dispatch("profile", formData);
-        this.$router.push("/");
-      } catch (e) {
-        console.log();
-      }
+    export default {
+        name: 'Profile',
+        components: {
+            CommentForm,
+            Container
+        }
     }
-  }
-};
 </script>
