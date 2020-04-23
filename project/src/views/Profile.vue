@@ -63,7 +63,7 @@
 <script>
     import CommentForm from "../components/app/commentform";
     import Container from "../components/app/container";
-
+    
     export default {
         name: 'Profile',
         components: {
