@@ -30,8 +30,15 @@
 </script>
 <style>
 .container {
-  background-color: palevioletred;
-  width: 100px;
-  height: 100px;
+  background-color: rgb(255, 255, 255);
+  width:100%;
+  height: 100%;
+}
+img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
 }
 </style>

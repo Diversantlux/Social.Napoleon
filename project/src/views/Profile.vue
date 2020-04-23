@@ -50,11 +50,13 @@
     </div>
     </div>
     <div class="button-profile">
+      <form action="/Home.vue">
       <button class="btn waves-effect waves-light data-submit"
        type="submit">
         Сохранить
         <i class="material-icons right">send</i>
       </button>
+      </form>
     </div>
   </div>
 </template>

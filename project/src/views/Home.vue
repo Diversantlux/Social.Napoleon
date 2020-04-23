@@ -3,7 +3,7 @@
     <div class="img-profile">
       <div class="img-item">
         <div class="block-img">
-          <img src alt />
+          <container></container>
         </div>
       </div>
     </div>
@@ -32,9 +32,13 @@
 
 
 <script>
+ import Container from "../components/app/container";
 export default {
   name: "home",
-
+components: {
+            
+            Container
+        },
 
     computed: {
     name() {
